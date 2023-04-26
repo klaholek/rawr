@@ -50,3 +50,4 @@ import time
 
 # print("Tyle masz poprawnych odpowiedzi:", poprawne)
 # print(lista)
+#Zmiana123

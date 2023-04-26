@@ -48,5 +48,5 @@ import time
 #         continue
     
 
-# print("Tyle masz poprawnych odpowiedzi:", poprawne)
+# print(f'Tyle masz poprawnych odpowiedzi: {poprawne}. Gratulacje!')
 # print(lista)

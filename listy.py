@@ -1,4 +1,7 @@
 
+import random
+import time
+
 # lista = []
 
 # print("Podaj liczbę:")
@@ -18,9 +21,6 @@
 # else:
 #     print("Brak danych")
 
-
-import random
-import time
 
 # num1 = ()
 # num2 = ()
@@ -50,48 +50,3 @@ import time
 
 # print("Tyle masz poprawnych odpowiedzi:", poprawne)
 # print(lista)
-
-
-
-
-wpis1 = ["Kanapka","10:10","Z tofu - bardzo dobra"]
-wpis2 = ["Fasoleczka","14:30","Mogła być lepsza, ale to Patrycja robiła"]
-fl = [wpis1, wpis2]
-wpis = []
-
-print("Twój Food log")
-print("Wciśnij podaną cyfrę, aby wybrać opcje")
-print("1 Dodaj posiłek")
-print("2 Usuń posiłek")
-print("3 Wyświetl konkretny posiłek")
-print("4 Wyświetl wszystkie posiłki")
-print("5 Wyjście")
-
-while True:
-    odp1 = input()
-    
-
-
-    if odp1 == "1":
-        print("Wpisz posiłek:")
-        pos = input()
-        wpis.append(pos)
-        print("Wpisz o której:")
-        czas = input()
-        wpis.append(czas)
-        print("Notatka:")
-        note = input()
-        wpis.append(note)
-
-        fl.append(wpis)
-
-    elif odp1 == "2":
-        for i in range(len(fl)):
-            print(fl[i])
-        print("Który podaj nazwę posiłku, aby usunąć wpis:")
-        odp2 = input()
-
-        if odp2 == wpis[0]:
-            wpis.remove(wpis)
-
-print(fl)
